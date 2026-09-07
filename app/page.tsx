@@ -2,10 +2,10 @@
 import { useEffect, useState } from 'react';
 
 const solutions = [
-  ['SMART LIGHTING','Lighting that follows your life.','Create scenes, schedules and moods across every room.','/images/living.jpg'],
-  ['SMART SECURITY','A quieter kind of protection.','CCTV, monitoring, motion detection and alerts in one security environment.','/images/hero.jpg'],
-  ['SMART ACCESS','Leave the keys behind.','Fingerprint, PIN, card and remote access designed around convenience.','/images/staircase.jpg'],
-  ['CENTRAL CONTROL','One touch. Endless control.','Lighting, climate, security, curtains and entertainment from one interface.','/images/living.jpg'],
+  ['SMART LIGHTING','Lighting that follows your life.','Create scenes, schedules and moods across every room.','/images/solutions/smart-lighting.png'],
+  ['SMART SECURITY','A quieter kind of protection.','CCTV, monitoring, motion detection and alerts in one security environment.','/images/solutions/smart-security.png'],
+  ['SMART ACCESS','Leave the keys behind.','Fingerprint, PIN, card and remote access designed around convenience.','/images/solutions/smart-access.png'],
+  ['CENTRAL CONTROL','One touch. Endless control.','Lighting, climate, security, curtains and entertainment from one interface.','/images/solutions/central-control.png'],
 ];
 const spots = ['Lighting','Security','Access','Climate','Entertainment','Voice Control'];
 const spotCopy: Record<string,string> = { Lighting:'Create scenes, automate schedules and control each room from your phone, wall panel or voice assistant.', Security:'See what matters wherever you are with intelligent surveillance and smart alerts.', Access:'Fingerprint, PIN, card and remote entry for a home that knows who belongs.', Climate:'Set the right temperature and let your home learn the rhythm of your day.', Entertainment:'Bring sound, picture and atmosphere together for the moment.', 'Voice Control':'Compatible voice assistants make everyday commands feel effortless.' };
