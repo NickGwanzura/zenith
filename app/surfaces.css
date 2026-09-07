@@ -19,3 +19,7 @@
 .card:hover {
   background: #ffffff;
 }
+
+.cta {
+  background: linear-gradient(90deg, rgba(0, 0, 0, .82), rgba(0, 0, 0, .62)), url('/images/hero.jpg') center / cover;
+}

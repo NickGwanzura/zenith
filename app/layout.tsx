@@ -3,6 +3,7 @@ import './globals.css';
 import './hero.css';
 import './surfaces.css';
 import './products.css';
+import './chrome.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://zenith-technologies-zimbabwe.sweet-mug-4574.chatgpt.site'),
