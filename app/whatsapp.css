@@ -1,0 +1,4 @@
+.whatsapp{display:inline-flex;align-items:center;gap:9px;right:20px;bottom:max(20px,env(safe-area-inset-bottom));padding:0 18px;border:1px solid rgba(4,54,24,.18);letter-spacing:.01em;white-space:nowrap}
+.whatsapp::before{content:"↗";display:grid;place-items:center;width:20px;height:20px;border:1px solid rgba(5,64,30,.34);border-radius:50%;font-size:.72rem}
+.whatsapp:focus-visible{outline-color:#25d366}
+@media(max-width:520px){.whatsapp{right:14px;bottom:max(14px,env(safe-area-inset-bottom));min-height:44px;padding-inline:15px;font-size:.72rem;box-shadow:0 8px 26px rgba(0,0,0,.26)}}

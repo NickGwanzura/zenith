@@ -4,6 +4,8 @@ import './hero.css';
 import './surfaces.css';
 import './products.css';
 import './chrome.css';
+import './whatsapp.css';
+import WhatsAppBoot from './whatsapp-boot';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://zenith-technologies-zimbabwe.sweet-mug-4574.chatgpt.site'),
@@ -14,5 +16,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body>{children}</body></html>;
+  return <html lang="en"><body>{children}<WhatsAppBoot /></body></html>;
 }
