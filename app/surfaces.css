@@ -1,0 +1,21 @@
+:root {
+  --paper: #ffffff;
+}
+
+.intro,
+.solutions,
+.security,
+.paper-section,
+.detail-body {
+  background: #ffffff;
+}
+
+.solutions .section-intro p,
+.solution-copy p,
+.detail-body > .container > p {
+  color: #454b50;
+}
+
+.card:hover {
+  background: #ffffff;
+}
